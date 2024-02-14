@@ -1,6 +1,4 @@
-$color: red;
-
-body{
-    color: $color;
-    
-}
+// Base
+@import './base/reset'; //сбросили все стили
+@import './base/vars'; //определили переменные
+@import './base/base'; //использование переменных в базе
